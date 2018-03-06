@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+a
+{ text-decoration: none; }
+#container /* Đây là cái khung bao bên ngoài */
+{	width: 1200px;
+	height: 1060px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#banner /* Đây là biểu ngữ đầu chứa logo và phần đăng nhập */
+{
+	background-image: url(logo.jpg);
+	width: 1200px;
+	height: 120px;
+}
+#logo /* Logo trang web */
+{
+	float:left;
+	width: 450px;
+	height: 120px;
+}
+#menu/* Phần menu */
+{
+	width: 1200px;
+	height: 40px;
+	background-color: #F6D8CE;
+
+} 
+/*==Style cho menu===*/
+#menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #FBF2EF;
+  display: inline-block;
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#menu a:hover {
+  background: #FBF2EF;
+  color: #333;
+}
+/*==Dropdown Menu== Ẩn đi cái sub-menu để nó không bị trồi lên ấy */
+.sub-menu li {
+  display: none;
+  background-color: white;
+}
+#menu li {
+ position: relative; /*sub-menu nó phải nằm gần menu mẹ, nên đặt kiểu này*/
+}
+.sub-menu {
+ display: none;
+ position: absolute; /* luôn luôn nằm trong phạm vi menu mẹ */
+
+}
+#menu li:hover .sub-menu {
+ display: block;
+ color: #EFFBFB;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+
+.link /* cái này giúp hiện dọc phải menu */
+
+{
+	border-right: 1px solid black;
+} 
+.link1{
+	border-bottom: 1px solid black;
+}
+#leftcontent /* Phần bên trái dưới menu */
+{
+background-color:#FBF2EF;
+width: 950px;
+height: 900px;
+float: left;
+
+}
+.ima /*  Ảnh */
+{
+margin-top: 30px;
+display:block;
+margin-right: auto;
+margin-left: auto;
+width: 900px;
+height: 550px;
+}
+.tin{
+margin-top: 60px;
+width: 800px;
+height:200px;
+padding: 10px;
+border:1px solid #F6D8CE;
+margin-left: 20px;
+}
+.imatin{
+	margin-top: 10px;
+	width: 200px;
+	height: 150px;
+
+}
+.tin p{text-align:center;
+margin-top: 10px;
+}
+.tin a:hover{
+color:red; }
+
+#rightcontent /* Phần bên phải dưới menu*/
+{
+background-color:#FBF2EF;
+width: 250px;
+height:900px;
+float:left;
+
+}
+.hello
+{
+margin-top: 60px;
+	font-size: 20px;
+	padding: 10px;
+}
+#rightcontent p{text-align:left;
+margin-right: 1px;
+color: black;}
+.rima /* Ảnh*/
+{
+margin-top: 30px;
+display:block;
+margin-right: auto;
+margin-left: auto;
+width: 220px;
+height: 220px;
+}
+.music
+{
+	display:block;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 220px;
+
+
+}
+#bot /* Cuối trang*/
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #2E2E2E;
+	width: 1200px;
+	height:50px;
+}
+span{
+	padding: 20px;
+}
