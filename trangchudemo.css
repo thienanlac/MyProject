@@ -152,16 +152,6 @@ margin-left: auto;
 width: 220px;
 height: 220px;
 }
-.music
-{
-	display:block;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 220px;
-
-
-}
 #bot /* Cuối trang*/
 {
 	display: block;
@@ -173,4 +163,43 @@ height: 220px;
 }
 span{
 	padding: 20px;
+}
+/*Phần dành cho nhạc nhẽo */
+#music{
+
+	width: 220px;
+	height:300px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#audioPlayer{
+	margin-top: 20px;
+	width: 220px;
+	height: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#list{	
+	margin-top: 20px;
+	width: 220px;
+	height:260px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F0FFF0;
+}
+#playlist{
+	list-style-type: none;	
+}
+#playlist li a
+{
+margin-left: 10px;
+color: #1E90FF;
+text-decoration: none;
+
+}
+#playlist a:hover{
+	color:#FF5159;
 }
