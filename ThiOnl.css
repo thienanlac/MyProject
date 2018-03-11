@@ -1,0 +1,25 @@
+.De {
+    margin-top: 45px;
+    width: 1200px;
+    height:250px;
+    border: 1px solid #F6D8CE;
+}
+.De h2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.De ul {
+    margin-top: -150px;
+    margin-left: 300px;
+    align: center;
+}
+.De ul li{
+    margin-top: 4px;
+}
+.De p{
+    color: blue;
+    text-decoration: none;
+    text-align: right;
+
+}
