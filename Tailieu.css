@@ -1,0 +1,77 @@
+#wap{
+  width:1200px;
+  height:900px;
+  border:1px solid  #FBF2EF ;
+  margin-left:auto;    /*canh lề cho phần tử*/
+}
+#wap-left{
+  width:319px;
+  height:850px;
+  float:left;
+  background-color: #FBF2EF;
+}
+
+#thanh-cuon-trai{
+     border:1px solid  #FBF2EF;
+     width:320px;
+     height:700px;
+     overflow-y:scroll;
+  }
+
+#môn-hoc{
+  margin:20px;     /**canh lề cho phần tử/
+  padding:0px;    /*vùng đệm, khoảng cách từ đường viền đến nội dung của phần tử*/
+}
+#môn-hoc ul li{
+  list-style:none;
+}
+#môn-hoc ul li a{
+  color:black;
+  line-height:50px;
+  border-bottom:1px solid teal;   /*thiết lập độ dày đường viền*/
+  display:block;
+  text-indent:10px;
+  padding-left:15px;     /*	vùng đệm, khoảng cách từ đường viền đến nội dung của phần tử*/
+  padding-right:15px;
+}
+#môn-hoc ul li a:hover{
+  color:red;
+}
+#môn-hoc ul li :hover{
+  background-color:#ffffaa;
+}
+#wap-right{
+  width:880px;
+  min-height:850px;
+  float:left;
+  background-color: #FBF2EF;
+}
+
+#thanh-cuon-phai{
+     border:1px solid  #FBF2EF;
+     width:880px;
+     height:700px;
+     overflow-y:scroll;
+  }
+#wap-right ul{
+  margin:0px;
+  padding:0px;
+}
+#wap-right ul li{
+  list-style:none;   /* để chỉnh kiểu chỉ mục cho các danh mục trong danh sách.*/
+  clear: left;
+  margin-top:20px; /* ảnh cách banner */
+  border-bottom:2px solid #ccc;
+  float:left;
+}
+#wap-right ul li img{
+
+  float:left;
+  width:200px;
+  height:200px;
+  margin-right:10px;
+  margin-bottom:20px;
+}
+#wap-right ul li h4{
+  font-size:16px;
+}
