@@ -1,205 +1,95 @@
-@charset "UTF-8";
 /*==Reset CSS==*/
 * {
   margin: 0;
   padding: 0;
 }
 
-/*==Style cơ bản cho website==*/
+/*Style cơ bản cho website*/
 body {
   font-family: sans-serif;
   color: #333;
 }
-a
-{ text-decoration: none; }
-#container /* Đây là cái khung bao bên ngoài */
-{	width: 1200px;
-	height: 1060px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-#banner /* Đây là biểu ngữ đầu chứa logo và phần đăng nhập */
-{
-	background-image: url(logo.jpg);
-	width: 1200px;
-	height: 120px;
-}
-#logo /* Logo trang web */
-{
-	float:left;
-	width: 450px;
-	height: 120px;
-}
-#menu/* Phần menu */
-{
-	width: 1200px;
-	height: 40px;
-	background-color: #F6D8CE;
 
-} 
-/*==Style cho menu===*/
+/*Style cho menu*/
 #menu ul {
+  background: #47bdec;
   list-style-type: none;
   text-align: center;
 }
 #menu li {
-  color: #FBF2EF;
+    font-size: 25px;
+  color: #f1f1f1;
   display: inline-block;
-  width: 280px;
+  width: 300px;
   height: 40px;
   line-height: 40px;
   margin-left: -5px;
 }
 #menu a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   display: block;
 }
 #menu a:hover {
-  background: #FBF2EF;
+  background: #F1F1F1;
   color: #333;
 }
-/*==Dropdown Menu== Ẩn đi cái sub-menu để nó không bị trồi lên ấy */
-.sub-menu li {
-  display: none;
-  background-color: white;
+#content{
+    background-color:Azure;
 }
-#menu li {
- position: relative; /*sub-menu nó phải nằm gần menu mẹ, nên đặt kiểu này*/
-}
-.sub-menu {
- display: none;
- position: absolute; /* luôn luôn nằm trong phạm vi menu mẹ */
+#rightcontent{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 
 }
-#menu li:hover .sub-menu {
- display: block;
- color: #EFFBFB;
-}
-.sub-menu li {
- margin-left: 0 !important;
+#leftcontent{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
-.link /* cái này giúp hiện dọc phải menu */
+#left_content li a {
+    text-decoration: none;
+    color: #FF69B4;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
 
-{
-	border-right: 1px solid black;
-} 
-.link1{
-	border-bottom: 1px solid black;
-}
-#leftcontent /* Phần bên trái dưới menu */
-{
-background-color:#FBF2EF;
-width: 950px;
-height: 900px;
-float: left;
-
-}
-.ima /*  Ảnh */
-{
-margin-top: 30px;
-display:block;
-margin-right: auto;
-margin-left: auto;
-width: 900px;
-height: 550px;
-}
-.tin{
-margin-top: 60px;
-width: 800px;
-height:200px;
-padding: 10px;
-border:1px solid #F6D8CE;
-margin-left: 20px;
-}
-.imatin{
-	margin-top: 10px;
-	width: 200px;
-	height: 150px;
-
-}
-.tin p{text-align:center;
-margin-top: 10px;
-}
-.tin a:hover{
-color:red; }
-
-#rightcontent /* Phần bên phải dưới menu*/
-{
-background-color:#FBF2EF;
-width: 250px;
-height:900px;
-float:left;
-
-}
-.hello
-{
-margin-top: 60px;
-	font-size: 20px;
-	padding: 10px;
-}
-#rightcontent p{text-align:left;
-margin-right: 1px;
-color: black;}
-.rima /* Ảnh*/
-{
-margin-top: 30px;
-display:block;
-margin-right: auto;
-margin-left: auto;
-width: 220px;
-height: 220px;
-}
-#bot /* Cuối trang*/
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #2E2E2E;
-	width: 1200px;
-	height:50px;
-}
-span{
-	padding: 20px;
-}
 /*Phần dành cho nhạc nhẽo */
 #music{
 
-	width: 220px;
-	height:300px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 #audioPlayer{
-	margin-top: 20px;
-	width: 220px;
-	height: 20px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+    margin-top: 20px;
+    width: 285px;
+    height: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-#list{	
-	margin-top: 20px;
-	width: 220px;
-	height:260px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #F0FFF0;
+#list{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
 }
 #playlist{
-	list-style-type: none;	
+    list-style-type: none;
 }
 #playlist li a
 {
 margin-left: 10px;
 color: #1E90FF;
 text-decoration: none;
-
+font-size: 16px;
 }
 #playlist a:hover{
-	color:#FF5159;
+    color:#FF5159;
 }
