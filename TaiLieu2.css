@@ -1,0 +1,127 @@
+/*==Reset CSS==*/
+*{
+  margin :0;
+  padding:0;
+}
+/*style cơ bản cho website*/
+body{
+  font-family:sans-serif;
+  color:#333;
+}
+
+/*style cho menu*/
+#menu ul{
+  background:#74bdec;
+  list-style-type:none;
+  text-align:center;
+}
+#menu li{
+  font-size:25px;
+  color:#f1f1f1;
+  display:inline-block;
+  width:300px;
+  height:40px;
+  line-height:40px;
+  margin-left:34px;
+  text-align:center;
+}
+#menu a{                  /*màu chữ trong menu*/
+  text-decoration:none;
+  color:#fff;
+  display:block;
+
+}
+#menu a:hover{          /*đổi nền và màu chữ khi hover */
+  background-color:#f1f1f1;
+  color:#333;
+}
+#wap{
+  width:auto;
+  height:auto;
+  border:1px solid  #FBF2EF ;
+  margin-left:auto;    /*canh lề cho phần tử*/
+  background-color:azure;
+}
+#wap-left{
+  width:25%;
+  height:auto;
+  float:left;
+  background-color:azure;
+}
+
+#scroll-left{        /*thanh-cuộn-trái*/
+     border:1px solid  #FBF2EF;
+     width:99%;/*340*/
+     height:400px;/*auto;*/
+     overflow-y:scroll;
+  }
+
+#subject{
+  margin:20px;     /* canh lề cho phần tử*/
+  padding:0px;    /*vùng đệm, khoảng cách từ đường viền đến nội dung của phần tử*/
+}
+#subject ul li{
+  list-style:none;
+  text-align:center;   /*căn chữ ra giữa*/
+  line-height:50px;
+  font-size:20px;
+}
+#subject ul li a{
+  color:black;
+  text-decoration:none;
+  border-bottom:1px solid teal;
+  display:block;
+}
+#wap-left ul li ul li:hover{
+background-color:#FFEFDB;
+}
+
+#wap-left ul li a:hover{
+  color:red;
+  background-color:#FFEFDB;
+}
+
+#wap-right{
+  width:75%;
+  height: auto;
+  float:right;
+  background-color: azure;
+
+}
+#wap-right ul li{
+  list-style:none;   /* để chỉnh kiểu chỉ mục cho các danh mục trong danh sách.*/
+  clear: left;
+  margin-top:25px; /* ảnh cách banner */
+  border-bottom:1px solid #ccc;
+  float:left;
+  background-color: azure;
+  display:block;
+
+
+}
+#wap-right ul li img{
+  float:left;
+  width:200px;
+  height:200px;
+  margin-right:20px;
+  margin-left:25px;
+  margin-bottom:20px;
+
+}
+
+#wap-right ul li a:hover{
+  color:black;/*#FF3366*/
+  text-decoration:none;     /*hover k có gạch chân*/
+
+}
+#wap-right ul li:hover{
+background-color:#FFEFDB;
+
+}
+#wap-right ul li a {
+  color:#0033CC;
+
+}
+.indent{
+  font-size: 18px;
+}
