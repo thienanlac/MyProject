@@ -31,16 +31,18 @@ body{
   display:block;
 
 }
-#menu a:hover{          /*đổi nền và màu chữ khi hover */
+#menu a:hover{
   background-color:#f1f1f1;
   color:#333;
+}
+#content{
+  background-color:azure;
 }
 #wap{
   width:auto;
   height:auto;
   border:1px solid  #FBF2EF ;
   margin-left:auto;    /*canh lề cho phần tử*/
-  background-color:azure;
 }
 #wap-left{
   width:25%;
@@ -51,8 +53,8 @@ body{
 
 #scroll-left{        /*thanh-cuộn-trái*/
      border:1px solid  #FBF2EF;
-     width:99%;/*340*/
-     height:400px;/*auto;*/
+     width:99%;
+     height:400px;
      overflow-y:scroll;
   }
 
@@ -86,7 +88,6 @@ background-color:#FFEFDB;
   height: auto;
   float:right;
   background-color: azure;
-
 }
 #wap-right ul li{
   list-style:none;   /* để chỉnh kiểu chỉ mục cho các danh mục trong danh sách.*/
@@ -124,4 +125,33 @@ background-color:#FFEFDB;
 }
 .indent{
   font-size: 18px;
+}
+#QC{
+  border:1px solid teal;
+  width:23%;
+  height:700px;
+  border-bottom:1px solid teal;
+  background:#EEEEEE;/*#DDDDDD;*/
+  margin-top:80px;
+  margin-left:15px;
+  padding:15px;
+  float:left;
+}
+#QC ul li{
+list-style-type:none;
+text-align:center;
+text-indent:15px;
+}
+#QC:hover{
+  background:#FFEBCD;
+}
+#QC ul ol{
+font-size:16px;
+line-height:30px;
+text-indent:15px;
+}
+#QC img{
+width:180px;
+height:150px;
+margin-left:45px;
 }
