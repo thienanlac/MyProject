@@ -1,0 +1,101 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Style cơ bản cho website*/
+body {
+  font-family: sans-serif;
+  color: #333;
+  /*background-image: url(Images/hi.jpg);*/
+  width: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode:;
+}
+
+/*Style cho menu*/
+#menu {
+background-color: #47bdec;
+}
+#menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  font-size: 25px;  
+  display: inline-block;  
+  line-height: 40px;  
+}
+#menu ul li:hover{
+  background-color:#F1F1F1; 
+  width: 100%;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#content{
+    background-color: Azure;}
+#rightcontent{
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+#leftcontent{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#left_content li a {
+    text-decoration: none;
+    color: #FF69B4;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/*Phần dành cho nhạc nhẽo */
+#music{
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#audioPlayer{
+    margin-top: 20px;
+    width: 285px;
+    height: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#list{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
+}
+#playlist{
+    list-style-type: none;
+}
+#playlist li a
+{
+margin-left: 10px;
+color: #1E90FF;
+text-decoration: none;
+font-size: 16px;
+}
+#playlist a:hover{
+    color:#FF5159;
+}
