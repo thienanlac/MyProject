@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Tin tức</title>
+  <title> Tin Tức </title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/trangchudemo.css">
-  <link rel="stylesheet" type="text/css" href="css/tintucdemo.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script src="js/jquery.min.js"></script>
 </head>
-<body>  
-  <div class="container-fluid"> <!-- Phần chứa -->
-    <div class="row"> <!-- Ảnh -->
-      <div class="col-md-4">
-        <a href="trangchudemo.html"><img src="Images/studyhard.logo.jpg" style="width: 70%"> </a> 
-       </div> 
-       <div class="col-md-5"></div> 
-       <div class="col-md-3" style="margin-top: 30px;padding: 20px;">
-        <button class="btn btn-info"><i class="glyphicon glyphicon-user"></i> Đăng nhập</button>
-        <button class="btn btn-success"><i class="glyphicon glyphicon-pencil"></i> Đăng ký</button>
-        
-       </div>  
-    </div>
-    <div class="row" id="menu"> <!-- Phần Menu -->
-      <ul>
-        <div class="col-md-3 col-sm-3"><li><a href="trangchudemo.html">Trang chủ</a></li></div>
-        <div class="col-md-3 col-sm-3"><li><a href="tuhoc.html">Tự Học</a></li></div>
-        <div class="col-md-3 col-sm-3"><li><a href="tintucdemo.html">Tin tức</a></li></div>
-        <div class="col-md-3 col-sm-3"><li><a href="Tailieu.html">Tài Liệu</a></li></div>
-      </ul>
-    </div>
-    <div class="row" id="content">  <!-- Phần Content-->
-      <div class="col-md-9"> <!-- Phần nội dung bên trái -->
-        <div class="leftcontent">
-          <div class="row" id="news"> <!-- Phần tin tức -->
-            <div class="row" > <!-- tin tức 1 -->
-              <a href="#" onclick="loadDoc()"> <img src="Images/hq.jpg" class="img-rounded pull-left" style="width: 30%;margin-right: 20px; margin-bottom: 20px; margin-left: 30px;">
-              <p><b>Du học Hàn Quốc: Có nên hay không?</b></p> </a>
-              <p>Hàn Quốc là nước có nền giáo dục xuất sắc trong khu vực châu Á cũng như luôn đứng top trong các nước có đầu tư cao về giáo dục. Do đó, du học Hàn Quốc là mong muốn của nhiều bạn trẻ nhưng ở một góc độ nào đó, nó cũng chẳng hề dễ chịu như những gì bạn vẫn tưởng tượng. Sau đây là những lý do bạn nên đi du học Hàn Quốc và những điều bạn cần cân nhắc trước khi quyết định... </p>             
-            </div>    <!-- Hết tin tức 1 -->
-            <div class="row" > <!-- tin tức 2 -->
-              <a href="#"><img src="Images/nb.jpg" class="img-rounded pull-left" style="width: 30%;margin-right: 20px; margin-bottom: 20px; margin-left: 30px;" >            
-              <p><b>Tổng quan chi phí du học Nhật Bản 2018</b></p></a>
-              <p>Thông tin tư vấn và chia sẻ kinh nghiệm du học Nhật trung thực, khách quan, chính xác. Hỗ trợ làm hồ sơ, thủ tục chuyên nghiệp - đạt Visa trên 90%....</p>           
-            </div>    <!-- Hết tin tức 2 -->
-             
-            <div class="row" style="margin-left: 20px;"> <!-- Nhiều trang sau.Minh họa thôi chưa làm :v Rảnh làm không thôi -->
-            <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-              <li class="page-item"><a class="page-link" href="#" onclick="load()">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-            </div> <!-- Thẻ đóng phần các trang-->
-          </div><!-- Thẻ đóng phần tin tức-->
+<body >  
+  
+  <div class="row"> <!-- Ảnh -->
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      <a href="trangchudemo.html"><img src="Images/studyhard.logo.jpg" class="img-rounded pull-left" style="width: 80%"> </a> 
+    </div>  
+    <div class="col-lg-6 col-md-6 col-sm-6"></div>  
+    <div class="col-lg-3 col-md-3 col-sm-3" style="margin-top: 30px;padding: 20px; margin: right;">
+      <button class="btn btn-info"><i class="glyphicon glyphicon-user"></i> Đăng nhập</button>
+      <button class="btn btn-success"><i class="glyphicon glyphicon-pencil"></i> Đăng ký</button>     
+     </div>
+  </div>      
+    
+  <div class="row" id="menu"> <!-- Phần Menu -->
+        <ul>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li><a href="trangchudemo.html">Trang chủ</a></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li><a href="tuhoc.html">Tự học</a></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li><a href="tintucdemo.html">Tin tức</a></li></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><li><a href="Tailieu.html">Tài Liệu</a></li></div>
+        </ul>
+  </div>    
+  
+  <div class="row">
+  <div class="container" style="background-color:" > <!-- Phần chứa -->
+
+      <div class="row" id="content"> 
+        <!-- Phần Content-->
+      <div class="col-lg-9 col-md-9 col-sm-8"> <!-- Phần nội dung bên trái -->
+        <div class="leftcontent" style="margin-top: 50px;">
+          
+          <div class="row" id="news"> <!-- Phần tin tức -->            
+                    <a href="#" onclick="loadDoc()"> <img src="Images/hq.jpg" class="img-rounded pull-left" style="width: 30%;margin-right: 20px; margin-bottom: 20px; margin-left: 30px;">
+                    <p><b>Du học Hàn Quốc: Có nên hay không?</b></p> </a>
+                    <p>Hàn Quốc là nước có nền giáo dục xuất sắc trong khu vực châu Á cũng như luôn đứng top trong các nước có đầu tư cao về giáo dục. Do đó, du học Hàn Quốc là mong muốn của nhiều bạn trẻ nhưng ở một góc độ nào đó, nó cũng chẳng hề dễ chịu như những gì bạn vẫn tưởng tượng. Sau đây là những lý do bạn nên đi du học Hàn Quốc và những điều bạn cần cân nhắc trước khi quyết định... </p>             
+              </div>    <!-- Hết tin tức  -->
+
+              <div class="row" id="news" > <!-- tin tức  -->
+                    <a href="#"><img src="Images/nb.jpg" class="img-rounded pull-left" style="width: 30%;margin-right: 20px; margin-bottom: 20px; margin-left: 30px;" >            
+                    <p><b>Tổng quan chi phí du học Nhật Bản 2018</b></p></a>
+                    <p>Thông tin tư vấn và chia sẻ kinh nghiệm du học Nhật trung thực, khách quan, chính xác. Hỗ trợ làm hồ sơ, thủ tục chuyên nghiệp - đạt Visa trên 90%....</p>        
+              </div>    <!-- Hết tin tức  -->
+              
+              <div class="row" id="news" > <!-- tin tức  -->
+                    <a href="#"><img src="Images/hinh-nen-hoa-anh-dao-dep-1.jpg" class="img-rounded pull-left" style="width: 30%;margin-right: 20px; margin-bottom: 20px; margin-left: 30px;" >            
+                    <p><b>Kinh nghiệm du học Nhật</b></p></a>
+                    <p>Kinh nghiệm du học Nhật ở Kobe- nơi lý tưởng với ...</p>        
+              </div>    <!-- Hết tin tức  -->
+
+                  <div class="row" style="margin-left: 20px;"> <!-- Nhiều trang sau.Minh họa thôi chưa làm :v Rảnh làm không thôi -->
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#" onclick="load()">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </div> <!-- Thẻ đóng phần các trang-->
+                            
         </div> <!-- Thẻ đóng của leftcontent -->          
       </div> <!-- Kết thúc phần nội dung bên trái -->
-      <div class="col-md-3" > <!-- Phần nội dung bên phải -->
+      <div class="col-lg-3 col-md-3 col-sm-4" > <!-- Phần nội dung bên phải -->
         <div id="rightcontent">
-          <p style="text-align: center; font-size: 25px; color: #191970;"><b> Welcome to StudyHard!</b></p> <!-- Chào thân thiện -->
+          <p style="text-align: center; font-size: 20px; color: #191970;"><b> Welcome to StudyHard!</b></p> <!-- Chào thân thiện -->
           <hr>
-          <p style="font-size: 16px;"> Sách là kho tàng đã và đang cho ta trí tuệ và biến ta thành người có tri thức, học rộng, tài cao.</p>
+          <p style="font-size: 15px;"> Sách là kho tàng đã và đang cho ta trí tuệ và biến ta thành người có tri thức, học rộng, tài cao.</p>
           <img src="Images/anhtrangchu.jpg" width="100%" style="margin-bottom:20px;">
           <br>
           <div id="music"> <!-- Phần nhạc nhẽo -->  
@@ -79,7 +90,6 @@
               <li><a href="Music/ConcertoForFluteHarpOrchestraIn_3srhq.mp3">Concert o For Flute</li>
               <li><a href="Music/CanonAndGigueinD-JohannPachelbel_3233t.mp3">Canon And Gigue in D</li>
               <li><a href="Music/DaiNgu-SongSenh-4630693.mp3">Đại Ngư(Đại Ngư Hải Đường-Song Sênh)</li>
-             
             </ul>
             </div> <!-- Hết phần danh sách nhạc -->         
           </div>    <!-- Kết thúc phần nhạc nhẽo -->      
@@ -87,12 +97,15 @@
         <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
         <script  src="js/music.js"></script>
         <script > audioPlayer();</script>
-      </div> <!-- Kết thúc phần nội dung bên phải --> 
-    </div>
-    <div class="row" style="background-color:black;"  > <!-- Phần Footer -->
-      <p style="font-size: 16px;color: white;margin:20px;text-align: right;"> Đóng góp ý kiến xin gửi về hòm thư: StudyHard@wru.vn </p>     
-    </div>
+      </div> <!-- Kết thúc phần nội dung bên phải -->
+      
+      </div><!-- --> <!-- Hết phần Content--> 
+    
   </div>
-  <script type="text/javascript" src="js/tintucdemo.js"></script>
+  </div>
+  <div class="row" style="background-color: black"  > <!-- Phần Footer -->
+      <p style="font-size: 16px;color: white;margin:20px;text-align: right;"> Đóng góp ý kiến xin gửi về hòm thư: StudyHard@wru.vn </p>     
+  </div>
+  <script type="text/javascript" src="js/trangchudemo.js"></script>
 </body>
 </html>
