@@ -8,28 +8,31 @@
 body {
   font-family: sans-serif;
   color: #333;
-  /*background-image: url(Images/hi.jpg);*/
-  width: 100%;
-  background-repeat: no-repeat;
-  background-blend-mode:;
+  
 }
 
 /*Style cho menu*/
 #menu {
-background-color: #47bdec;
+ background-color: #47bdec; 
 }
 #menu ul {
   list-style-type: none;
   text-align: center;
+  background-color: ;
 }
 #menu li {
   font-size: 25px;  
   display: inline-block;  
   line-height: 40px;  
+  background-color: ;
+
 }
-#menu ul li:hover{
+#menu ul li {
+  display: inline-block;
+}
+#menu ul :hover{
   background-color:#F1F1F1; 
-  width: 100%;
+  
 }
 #menu a {
   text-decoration: none;
@@ -41,7 +44,7 @@ background-color: #47bdec;
   color: #333;
 }
 #content{
-    background-color: Azure;}
+    }
 #rightcontent{
     margin-left: 15px;
     margin-top: 40px;
@@ -73,7 +76,7 @@ background-color: #47bdec;
 }
 #audioPlayer{
     margin-top: 20px;
-    width: 285px;
+    width: 85%;
     height: 20px;
     display: block;
     margin-right: auto;
