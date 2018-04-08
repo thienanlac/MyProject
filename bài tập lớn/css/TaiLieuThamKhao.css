@@ -52,12 +52,12 @@ line-height:40px;
   display:block;
 }
 #wap-left ul li ul li:hover{
-background-color:#FFEFDB;
+background-color:#F5FFFA;
 }
 
 #wap-left ul li a:hover{
   color:red;
-  background-color:#FFEFDB;
+  background-color:#F5FFFA;
 }
 
 #wap-right{
@@ -88,17 +88,16 @@ background-color:#FFEFDB;
 }
 
 #wap-right ul li a:hover{
-  color:black;
+  color:red;
   text-decoration:none;     /*hover k có gạch chân*/
 
 }
 #wap-right ul li:hover{
-background-color:#FFEFDB;
+background-color:#F5FFFA;
 
 }
 #wap-right ul li a {
-  color:#0033CC;
-
+  color:black;
 }
 .indent{
   font-size: 18px;
