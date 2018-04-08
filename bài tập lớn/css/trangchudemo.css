@@ -8,12 +8,17 @@
 body {
   font-family: sans-serif;
   color: #333;
+  background-image: url(1557a3f270010af.jpg);
+  background-repeat: repeat;
+
+
   
 }
 
+
 /*Style cho menu*/
 #menu {
- background-color: #47bdec; 
+ background-color: #87CEFA/* #47bdec*/; 
 }
 #menu ul {
   list-style-type: none;
@@ -30,21 +35,29 @@ body {
 #menu ul li {
   display: inline-block;
 }
-#menu ul :hover{
-  background-color:#F1F1F1; 
+#menu ul  :hover{
+  background: #191970;
+  color: #fff;
   
 }
+
 #menu a {
   text-decoration: none;
   color: #fff;
   display: block;
 }
 #menu a:hover {
-  background: #F1F1F1;
-  color: #333;
+  
+  color: #fff;
+  width: 100%;
+ 
 }
 #content{
-    }
+  font-size:16px;
+  background-color: #F5FFFA;
+  opacity:0.9;
+  font-weight: bold;
+      }
 #rightcontent{
     margin-left: 15px;
     margin-top: 40px;
@@ -53,6 +66,7 @@ body {
 
 }
 #leftcontent{
+    
     margin-top: 40px;
     margin-left: 30px;
     margin-bottom: 20px;
