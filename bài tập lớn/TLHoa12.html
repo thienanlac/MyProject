@@ -3,122 +3,153 @@
 <head>
 	<title> Tài Liệu</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/trangchudemo.css">
+	<link href="css/styles.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/TaiLieuThamKhao.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<script type="text/javascript" src="bootstrap.min.js"></script>
-	<script type="text/javascript" src="jquery-3.3.1.js"></script>
-	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<style>p.indent{ text-indent: 15px }</style>
+
 </head>
-<body>
-	<div class="container-fluid"> <!-- Phần chứa -->
-		<div class="row"> <!-- Ảnh -->
-			 <a href="trangchudemo.html"><img src="studyhard.logo.jpg"> </a>
-		</div>   <!--của ảnh-->
 
-		<div class="row" id="content"> <!-- Phần Menu -->
-			<div id="menu">
-  				<ul>
-	    			<li><a href="trangchudemo.html">Trang chủ</a></li>
-	    			<li><a href="thi_online.html">Thi Online</a></li>
-	    			<li><a href="tintucdemo.html">Tin tức</a></li>
-	    			<li><a href="TailieuToan10.html">Tài Liệu</a></li>
-  				</ul>
-			 </div> 		<!--của menu-->
+<body >
 
-			<div id="wap">
-		    <div id="wap-left">     <!-- Nội dung bên trái dưới menu-->
-					<div id="scroll-left">
-						<div id="subject">
-						 <ul>
-							 <li><a href=""><h3>Tài Liệu Môn Học</h3></a></li>
-							 <li><a href=""><h3>Môn Toán</h3></a>
-								 <ul>
-                    <li><a href="TaiLieuToan10.html">Toán 10</a></li>
-										<li><a href="TaiLieuToan11.html">Toán 11</a></li>
-										<li><a href="TaiLieuToan12.html">Toán 12</a></li>
-								 </ul>
-							 </li>
+	<div class="row"> <!-- Ảnh -->
+		<div class="col-lg-3 col-md-3 col-sm-3">
+			<a href="trangchudemo.html"><img src="Images/studyhard.logo.jpg" class "img-rounded pull-left" style="width:80%"> </a>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6"></div>
+		<div class="col-lg-3 col-md-3 col-sm3 " style="margin-top: 30px;padding: 20px; margin: right;">
+		 	<button class="btn btn-info"><i class="glyphicon glyphicon-user"></i> Đăng nhập</button>
+			<button class="btn btn-success"><i class="glyphicon glyphicon-pencil"></i> Đăng ký</button>
+		 </div>
+	</div>
 
-							 <li><a href=""><h3>Môn Lý</h3></a>
-								 <ul>
-										<li><a href="TLLy10.html">Lý 10</a></li>
-								    <li><a href="TLLy11.html">Lý 11</a></li>
-									  <li><a href="TLLy12.html">Lý 12</a></li>
-								 </ul>
-							 </li>
+	<div class="row" id="menu"> <!-- Phần Menu -->
+		<ul>
+			<div class="col-lg-3 col-md-3 col-sm-3"><li><a href="trangchudemo.html">Trang chủ</a></li></div>
+			<div class="col-lg-3 col-md-3 col-sm-3"><li><a href="tuhoc.html">Tự học</a></li></div>
+			<div class="col-lg-3 col-md-3 col-sm-3"><li><a href="tintucdemo.html">Tin tức</a></li></div>
+			<div class="col-lg-3 col-md-3 col-sm-3"><li><a href="Tailieu.html">Tài Liệu</a></li></div>
+		</ul>
+	</div>
 
-							 <li><a href=""><h3>Môn Hóa</h3></a>
-								 <ul>
-									 <li><a href="TLHoa10.html">Hóa 10</a></li>
-									 <li><a href="TLHoa11.html">Hóa 11</a></li>
-									 <li><a href="TLHoa12.html">Hóa 12</a></li>
-								 </ul>
-							 </li>
-						 </ul>
-						</div>  <!--của nội dung-->
-					</div>      <!--thanh cuộn-->
-				</div>        <!--của wap-left-->
+	<div class="row">
+	 <div class="container" style="background-color:pink;" > <!-- Phần chứa -->
 
-        <div id="wap-right">      <!-- Nội dung bên phải dưới menu-->
-           	<ul>
-           		<li>
-								<a href="http://hoahoc247.com/hoa-hoc-lop-12-c63.html"	><img src="Images/h11.jpg" >
-									<h3>HÓA HỌC LỚP 12</h3>
-								 	<p class="indent" align="justify">Hóa học lớp 12 tiếp tục mang đến cho các em những kiến thức lí thú về các loại hợp chất hữu cơ như este - lipit, cacbonhidrat, các amin, aminoaxit, polime và vật liệu polime. Các em được học các kiến thức mới về hóa vô cơ thông qua các bài giảng đại cương về kim loại, các kim loại kiềm, kiềm thổ, sắt,...<h4>Xem thêm</h4></p>
-                </a>
-           		</li>
+		<div class="row" id="content"> 	<!-- Phần Content-->
+			<div class="col-lg-3 col-md-3 col-sm-4"> <!-- Phần nội dung bên trái -->
+			<div class="leftcontent" id="wap-left"  >
+				<div id="scroll-left">
+					 <div id="subject">
+							 <ul>
+						 <li><a href=""><h3>Tài Liệu Môn Học</h3></a></li>
+						 <li><a href=""><h3>Môn Toán</h3></a>
+							 <ul>
+									<li><a href="TaiLieuToan10.html">Toán 10</a></li>
+									<li><a href="TaiLieuToan11.html">Toán 11</a></li>
+									<li><a href="TaiLieuToan12.html">Toán 12</a></li>
+								</ul>
+						 </li>
 
-							<li>
-								<a href="http://vietjack.com/giai-bai-tap-hoa-12-nang-cao/index.jsp"	><img src="Images/h12.jpg" >
-                  <h3>Giải bài tập Hóa 12 nâng cao </h3>
-									<p class="indent" align="justify">Để học tốt các môn học lớp 12 nâng cao, bên cạnh các bài Soạn văn lớp 12, xin trân trọng giới thiệu loạt bài giải bài tập Hóa học lớp 12 nâng cao được biên soạn bám sát theo nội dung sách giáo khoa Hóa học 12 nâng cao ...<h4>Xem thêm</h4></p>
-								</a>
-							</li>
+						 <li><a href=""><h3>Môn Lý</h3></a>
+								<ul>
+									<li><a href="TLLy10.html">Lý 10</a></li>
+										<li><a href="TLLy11.html">Lý 11</a></li>
+									<li><a href="TLLy12.html">Lý 12</a></li>
+								</ul>
+						 </li>
 
-							<li>
-								<a href="http://luyenthithptquocgia.com/tuyen-tap-de-thi-thu-mon-hoa-thptqg-2017-de-khao-sat-moi-nhat-a956.html"	><img src="Images/h13.jpg" >
-									<h3>15 đề thi thử trắc nghiệm môn Hóa THPTQG</h3>
-                  <p class="indent" align="justify">Tuyển tập các đề thi thử môn Hóa THPT Quốc gia 2017, của các trường THPT trên toàn quốc, theo cấu trúc mới của Bộ GD, có đáp án chi tiết và file tải về giúp ôn luyện dễ dàng , hiệu quả...<h4>Xem thêm</h4></p>
-              	</a>
-							</li>
+						 <li><a href=""><h3>Môn Hóa</h3></a>
+								<ul>
+									<li><a href="TLHoa10.html">Hóa 10</a></li>
+									<li><a href="TLHoa11.html">Hóa 11</a></li>
+									<li><a href="TLHoa12.html">Hóa 12</a></li>
+								</ul>
+						 </li>
+					 </ul>
+				 </div>  <!--hết phần subject-->
+				</div>      <!--thanh cuộn-->
 
-							<li>
-								<a href="http://tailieu.vn/tag/tai-lieu-hoa-12.html"	><img src="Images/h14.jpg" >
-                  <h3>Tài liệu Hóa 12</h3>
-								  <p class="indent" align="justify">Tài liệu ôn tập hoá tham khảo gồm lý thuyết và bài tập trắc nghiệm giúp bạn hệ thống lại kiến thức tổng quát môn hoá lớp 12 để luyện thi được hiệu quả hơn....<h4>Xem thêm</h4></p>
-								</a>
-							</li>
+				<div id="QC">
+					<ul>
+						<li> <h4>Mách nhỏ"Bí quyết học siêu hiệu quả."</h4></li>
+						<a href="https://www.youtube.com/watch?v=CpE9sSjZ3fw"><img src="Images/vd1.jpg" class="img-rounded"  ></a>
+						<ol>1.Chia thời gian học thành các khung giờ ngắn.</ol>
+						<ol>2.Có những bài minitest sau mỗi chương học.</ol>
+						<ol>3.Không gian học tập riêng.</ol>
+						<ol>4.Khi học không lên dùng điện thoại vì chúng sẽ làm cho bạn mất tập chung dẫn đến hiệu quả học tập không cao.</ol>
+						<p><img src="Images/qc1.jpg" class="img-rounded"  ></p>
+					</ul>
+				</div> <!--của QC-->
+			</div> <!-- Thẻ đóng của leftcontent -->
+	 		</div> <!-- Kết thúc phần nội dung bên trái -->
 
-							<li>
-                <a href="https://thuvienhoclieu.com/450-cau-hoi-trac-nghiem-hoa-12-ca-nam-theo-tung-muc-co-dap/"	><img src="Images/h15.jpg" >
-									<h3>450 Câu hỏi trắc nghiệm hóa 12</h3>
-								  <p class="indent" align="justify">Bài tập cơ bản và nâng cao Hóa học 12. Hệ thống lại kiến thức trọng tâm,bài tập cơ bản, nâng cao có đi kèm lời giải. Với tài liệu này chúng tôi hi vọng rằng sẽ giúp cho quá trình giảng dạy và học tập môn Hóa của quý thầy cô và các bạn học sinh được thuận tiện hơn....<h4>Xem thêm</h4></p>
-								</a>
-							</li>
-           	</ul>
-          </div>     <!-- của wap-right-->
+			<div class="col-lg-9 col-md-9 col-sm-8"  > <!-- Phần nội dung bên phải -->
+				<div id="wap-right">
+					<ul>
 
-					<div id="QC">
-						<ul>
-							<li><h3>Góc chia sẻ học tập</h3></li>
-							<a href="https://www.youtube.com/watch?v=CpE9sSjZ3fw"><img src="Images/vd1.jpg" ></a>
-							<li> <h4>Mách nhỏ"Bí quyết học siêu hiệu quả."</h4></li>
-							<ol>1.Chia thời gian học thành các khung giờ ngắn.</ol>
-							<ol>2.Có những bài minitest sau mỗi chương học.</ol>
-							<ol>3.Không gian học tập riêng.</ol>
-							<ol>4.Khi học không lên dùng điện thoại vì chúng sẽ làm cho bạn mất tập chung dẫn đến hiệu quả học tập không cao.</ol>
-							<p><img src="Images/qc1.jpg" >
-						</ul>
-					</div> <!--của QC-->
-      </div>     <!--của wap-->
-		</div>  <!--của content-->
+						<li>
+							<a href="http://hoahoc247.com/hoa-hoc-lop-12-c63.html"	><img src="Images/h11.jpg" >
+								<h3>HÓA HỌC LỚP 12</h3>
+								<p class="indent" align="justify">Hóa học lớp 12 tiếp tục mang đến cho các em những kiến thức lí thú về các loại hợp chất hữu cơ như este - lipit, cacbonhidrat, các amin, aminoaxit, polime và vật liệu polime. Các em được học các kiến thức mới về hóa vô cơ thông qua các bài giảng đại cương về kim loại, các kim loại kiềm, kiềm thổ, sắt,...<h4>Xem thêm</h4></p>
+							</a>
+						</li>
 
-		<div class="row" style="background-color:black;"  > <!-- Phần Footer -->
-			<p style=font-size="16" color="white" margin="20"text-align="right"> Đóng góp ý kiến xin gửi về hòm thư: StudyHard@wru.vn </p>
-	  </div>
-	</div><!--của container-fluid-->
-	<script type="text/javascript" src="TaiLieu2.js"></script>
+						<li>
+							<a href="http://vietjack.com/giai-bai-tap-hoa-12-nang-cao/index.jsp"	><img src="Images/h12.jpg" >
+								<h3>Giải bài tập Hóa 12 nâng cao </h3>
+								<p class="indent" align="justify">Để học tốt các môn học lớp 12 nâng cao, bên cạnh các bài Soạn văn lớp 12, xin trân trọng giới thiệu loạt bài giải bài tập Hóa học lớp 12 nâng cao được biên soạn bám sát theo nội dung sách giáo khoa Hóa học 12 nâng cao ...<h4>Xem thêm</h4></p>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://luyenthithptquocgia.com/tuyen-tap-de-thi-thu-mon-hoa-thptqg-2017-de-khao-sat-moi-nhat-a956.html"	><img src="Images/h13.jpg" >
+								<h3>15 đề thi thử trắc nghiệm môn Hóa THPTQG</h3>
+								<p class="indent" align="justify">Tuyển tập các đề thi thử môn Hóa THPT Quốc gia 2017, của các trường THPT trên toàn quốc, theo cấu trúc mới của Bộ GD, có đáp án chi tiết và file tải về giúp ôn luyện dễ dàng , hiệu quả...<h4>Xem thêm</h4></p>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://tailieu.vn/tag/tai-lieu-hoa-12.html"	><img src="Images/h14.jpg" >
+								<h3>Tài liệu Hóa 12</h3>
+								<p class="indent" align="justify">Tài liệu ôn tập hoá tham khảo gồm lý thuyết và bài tập trắc nghiệm giúp bạn hệ thống lại kiến thức tổng quát môn hoá lớp 12 để luyện thi được hiệu quả hơn....<h4>Xem thêm</h4></p>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://thuvienhoclieu.com/450-cau-hoi-trac-nghiem-hoa-12-ca-nam-theo-tung-muc-co-dap/"	><img src="Images/h15.jpg" >
+								<h3>450 Câu hỏi trắc nghiệm hóa 12</h3>
+								<p class="indent" align="justify">Bài tập cơ bản và nâng cao Hóa học 12. Hệ thống lại kiến thức trọng tâm,bài tập cơ bản, nâng cao có đi kèm lời giải. Với tài liệu này chúng tôi hi vọng rằng sẽ giúp cho quá trình giảng dạy và học tập môn Hóa của quý thầy cô và các bạn học sinh được thuận tiện hơn....<h4>Xem thêm</h4></p>
+							</a>
+						</li>
+
+					</ul>
+				</div>   <!--đóng wap-right-->
+
+				<div class="row" style="margin-left:20px;" > <!-- Nhiều trang sau.Minh họa thôi chưa làm :v Rảnh làm không thôi -->
+					<ul class="pagination">
+							<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+							<li class="page-item"><a class="page-link" href="#" onclick="load()">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					</ul>
+				</div> <!-- Thẻ đóng phần các trang-->
+
+			</div> <!-- Kết thúc phần nội dung bên phải -->
+
+		</div><!-- --> <!-- Hết phần Content-->
+
+	 </div>
+	</div>
+
+	<div class="row" style="background-color: black"  > <!-- Phần Footer -->
+			<p style="font-size: 16px;color: white;margin:20px;text-align: right;"> Đóng góp ý kiến xin gửi về hòm thư: StudyHard@wru.vn </p>
+	</div>
+	<script type="text/javascript" src="js/trangchudemo.js"></script>
 
 </body>
 
