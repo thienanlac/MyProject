@@ -10,10 +10,10 @@ body{
 }
 
 
-
 #content{
   background-color:azure;
 }
+
 #wap{
   width:auto;
   height:auto;
@@ -21,7 +21,7 @@ body{
   margin-left:auto;    /*canh lề cho phần tử*/
 }
 #wap-left{
-  
+  margin-top:30px;
   background-color:azure;
 }
 
@@ -33,14 +33,17 @@ body{
   }
 
 #subject{
-  margin:20px;     /* canh lề cho phần tử*/
+  margin:5px;     /* canh lề cho phần tử*/
   padding:0px;    /*vùng đệm, khoảng cách từ đường viền đến nội dung của phần tử*/
 }
 #subject ul li{
   list-style:none;
   text-align:center;   /*căn chữ ra giữa*/
-  line-height:50px;
+  line-height:40px;
   font-size:20px;
+}
+#subject ul{
+line-height:40px;
 }
 #subject ul li a{
   color:black;
@@ -49,16 +52,18 @@ body{
   display:block;
 }
 #wap-left ul li ul li:hover{
-background-color:#FFEFDB;
+background-color:#F5FFFA;
 }
 
 #wap-left ul li a:hover{
   color:red;
-  background-color:#FFEFDB;
+  background-color:#F5FFFA;
 }
 
 #wap-right{
-
+  /*width:75%;
+  height: auto;
+  float:right;*/
   background-color: azure;
 }
 #wap-right ul li{
@@ -83,31 +88,31 @@ background-color:#FFEFDB;
 }
 
 #wap-right ul li a:hover{
-  color:black;/*#FF3366*/
+  color:red;
   text-decoration:none;     /*hover k có gạch chân*/
 
 }
 #wap-right ul li:hover{
-background-color:#FFEFDB;
+background-color:#F5FFFA;
 
 }
 #wap-right ul li a {
-  color:#0033CC;
-
+  color:black;
 }
 .indent{
   font-size: 18px;
 }
 #QC{
   border:1px solid teal;
-
+  /*width:23%;
+  height:700px;*/
   border-bottom:1px solid teal;
-  background:#EEEEEE;/*#DDDDDD;*/
-  margin-top:40px;
+  background:#EEEEEE;
+  margin-top:80px;
   margin-left:15px;
-  margin-bottom: 20px;
+  margin-bottom:20px;
   padding:15px;
- 
+  float:left;
 }
 #QC ul li{
 list-style-type:none;
@@ -123,7 +128,10 @@ line-height:30px;
 text-indent:15px;
 }
 #QC img{
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  width:80px;
+
 }
