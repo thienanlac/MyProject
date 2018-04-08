@@ -9,35 +9,11 @@ body{
   color:#333;
 }
 
-/*style cho menu*/
-#menu ul{
-  background:#74bdec;
-  list-style-type:none;
-  text-align:center;
-}
-#menu li{
-  font-size:25px;
-  color:#f1f1f1;
-  display:inline-block;
-  width:300px;
-  height:40px;
-  line-height:40px;
-  margin-left:34px;
-  text-align:center;
-}
-#menu a{                  /*màu chữ trong menu*/
-  text-decoration:none;
-  color:#fff;
-  display:block;
 
-}
-#menu a:hover{
-  background-color:#f1f1f1;
-  color:#333;
-}
 #content{
   background-color:azure;
 }
+
 #wap{
   width:auto;
   height:auto;
@@ -45,9 +21,7 @@ body{
   margin-left:auto;    /*canh lề cho phần tử*/
 }
 #wap-left{
-  width:25%;
-  height:auto;
-  float:left;
+  margin-top:30px;
   background-color:azure;
 }
 
@@ -59,14 +33,17 @@ body{
   }
 
 #subject{
-  margin:20px;     /* canh lề cho phần tử*/
+  margin:5px;     /* canh lề cho phần tử*/
   padding:0px;    /*vùng đệm, khoảng cách từ đường viền đến nội dung của phần tử*/
 }
 #subject ul li{
   list-style:none;
   text-align:center;   /*căn chữ ra giữa*/
-  line-height:50px;
+  line-height:40px;
   font-size:20px;
+}
+#subject ul{
+line-height:40px;
 }
 #subject ul li a{
   color:black;
@@ -84,9 +61,9 @@ background-color:#FFEFDB;
 }
 
 #wap-right{
-  width:75%;
+  /*width:75%;
   height: auto;
-  float:right;
+  float:right;*/
   background-color: azure;
 }
 #wap-right ul li{
@@ -111,7 +88,7 @@ background-color:#FFEFDB;
 }
 
 #wap-right ul li a:hover{
-  color:black;/*#FF3366*/
+  color:black;
   text-decoration:none;     /*hover k có gạch chân*/
 
 }
@@ -128,12 +105,13 @@ background-color:#FFEFDB;
 }
 #QC{
   border:1px solid teal;
-  width:23%;
-  height:700px;
+  /*width:23%;
+  height:700px;*/
   border-bottom:1px solid teal;
-  background:#EEEEEE;/*#DDDDDD;*/
+  background:#EEEEEE;
   margin-top:80px;
   margin-left:15px;
+  margin-bottom:20px;
   padding:15px;
   float:left;
 }
@@ -146,12 +124,15 @@ text-indent:15px;
   background:#FFEBCD;
 }
 #QC ul ol{
-font-size:16px;
+font-size:15px;
 line-height:30px;
 text-indent:15px;
 }
 #QC img{
-width:180px;
-height:150px;
-margin-left:45px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  width:80px;
+
 }
