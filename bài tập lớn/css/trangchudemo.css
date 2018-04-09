@@ -18,7 +18,8 @@ body {
 
 /*Style cho menu*/
 #menu {
- background-color: #87CEFA/* #47bdec*/; 
+ background-color: #87CEFA/* #87CEFA#47bdec#66ccff*/; 
+
 }
 #menu ul {
   list-style-type: none;
@@ -36,8 +37,9 @@ body {
   display: inline-block;
 }
 #menu ul  :hover{
-  background: #191970;
+  background: #66ccff ;
   color: #fff;
+
   
 }
 
