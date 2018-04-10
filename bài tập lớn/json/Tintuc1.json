@@ -1,0 +1,28 @@
+{
+    "tintuc1":[
+
+                  {
+                      "link_anh":"Images/hinh-nen-hoa-anh-dao-dep-1.jpg",
+                      "tieu de" :"Du học Hàn Quốc",
+                      "hienthi" :"Hàn Quốc là nước có nền giáo dục xuất sắc trong
+                      khu vực châu Á cũng như luôn đứng top trong các nước có đầu tư cao về giáo dục.
+                      Do đó, du học Hàn Quốc là mong muốn của nhiều bạn trẻ nhưng ở một góc độ nào đó,
+                      nó cũng chẳng hề dễ chịu như những gì bạn vẫn tưởng tượng.
+                      Sau đây là những lý do bạn nên đi du học
+                      Hàn Quốc và những điều bạn cần cân nhắc trước khi quyết định...",
+                      "url" : "tintuc1_bai1"
+                  },
+
+                  {
+                    "link_anh":"hq.jpg",
+                    "tieu de" :"Kinh nghiệm du học Nhật",
+                    "hienthi" :"Thông tin tư vấn và chia sẻ kinh nghiệm du học Nhật trung thực, khách quan, chính xác. Hỗ trợ làm hồ sơ, thủ tục chuyên nghiệp - đạt Visa trên 90%...",
+                    "url" : "tintuc1_bai2"
+                  }
+
+
+
+    ]
+
+
+}

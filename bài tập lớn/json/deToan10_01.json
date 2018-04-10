@@ -1,0 +1,60 @@
+{
+    "De":[
+            {
+                "Tende":"Đề ôn tập toán lớp 10 bài 1",
+                "ThoiGian":
+                {
+                    "phut":"5",
+                    "giay":"0"
+                },
+                "Cau":
+                [
+                    {
+
+                      "Cauhoi":"Câu 1:Đường thẳng d :(m-2)x+my =-6 luôn đi qua điểm:",
+                      "A":"A.(3;-3)",
+                      "B":"B.(3;1)",
+                      "C":"C.(2;1)",
+                      "D":"D.(1;-5)",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 2: Cho hai đường thẳng d1: y= 2x+ 3;d2: y= 2x- 3 . Khẳng định nào sau đây đúng:",
+                      "A":"A.d1//d2",
+                      "B":"B.d1 vuông góc d2",
+                      "C":"C.d1 cắt d2",
+                      "D":"D.d1 trùng d2",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 3:Đồ thị hàm số y =ax+ b đi qua hai điểm A (0;3) ;B(1; 5). Thì a và b bằng",
+                      "A":"A.a=2;b=3",
+                      "B":"B.a=2;b=3",
+                      "C":"C.a=2;b=3",
+                      "D":"D.a=1;b=4",
+                      "Dapan":"C"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 4:Với giá trị nào của b thì đồ thị hàm số f(x)=ax+1 đi qua điểm M(1;2) ?",
+                      "A":"A.a=2",
+                      "B":"B.a=-1",
+                      "C":"C.a=1",
+                      "D":"D.a=2",
+                      "Dapan":"C"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 5:Cho hàm số f(x)=4x-3. Trong các mệnh đề sau, mệnh đề nào đúng?",
+                      "A":"A.f(x)là hàm số chẵn.",
+                      "B":"B.f(x)là hàm số không chẵn không lẻ.",
+                      "C":"C.f(x)là hàm số lẻ.",
+                      "D":"D.f(x)là hàm số vừa chẵn vừa lẻ.",
+                      "Dapan":"C"
+                    }
+                ]
+            }
+       ]
+}
