@@ -90,7 +90,9 @@ background-color:#F5FFFA;
 #wap-right ul li a:hover{
   color:#000099;
   text-decoration:none;     /*hover k có gạch chân*/
-
+}
+#wap-right ul li a h3{
+color:red;
 }
 #wap-right ul li:hover{
 background-color:#ffebcd;
