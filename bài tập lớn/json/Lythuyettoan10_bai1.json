@@ -1,0 +1,19 @@
+{
+    "Bai":[
+      {
+          "tenbai":"Đại số 10: Hàm số y = ax+b",
+          "noidung":[
+
+                  "I.Lý thuyết hàm số bậc nhất.",
+                  "A. Tóm tắt kiến thức:",
+                  "1. Định nghĩa:",
+                  "Hàm số bậc nhất là hàm số được cho bởi công thức y = ax + b, trong đó a, b là những số cho trước và a  ≠ 0.",
+                  "2. Tính chất:",
+                  "Hàm số bậc nhất y = ax + b xác định với mọi giá trị của x thuộc R và có tính chất sau:",
+                  "a) Đồng biến trên R khi a > 0",
+                  "b) Nghịch biến trên R khi a < 0."
+            ]
+      }
+
+    ]
+}

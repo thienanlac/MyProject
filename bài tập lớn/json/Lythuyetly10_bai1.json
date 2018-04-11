@@ -1,0 +1,40 @@
+{
+    "Bai":[
+      {
+          "tenbai":"Bài 1: Chuyển động cơ",
+          "noidung":[
+
+
+            "I. Chuyển động cơ – Chất điểm",
+            "1. Chuyển động cơ",
+            "Chuyển động của một vật là sự thay đổi vị trí của vật đó so với các vật khác theo thời gian.",
+            "2. Chất điểm",
+            "Những vật có kích thước rất nhỏ so với độ dài đường đi (hoặc với những khoảng cách mà ta đề cập đến),
+            được coi là chất điểm.",
+            "Khi một vật được coi là chất điểm thì khối lượng của vật coi như tập trung tại chất điểm đó.",
+            "3. Quỹ đạo",
+            "Quỹ đạo của chuyển động là đường mà chất điểm chuyển động vạch ra trong không gian.",
+            "II. Cách xác định vị trí của vật trong không gian.",
+            "1. Vật làm mốc và thước đo",
+            "Để xác định chính xác vị trí của vật ta chọn một vật làm mốc và một chiều dương trên quỹ đạo rồi dùng
+            thước đo chiều dài đoạn đường từ vật làm mốc đến vật.",
+            "2. Hệ toạ độ",
+            "Hệ toạ độ 1 trục (sử dụng khi vật chuyển động trên một đường thẳng)",
+            "III. Cách xác định thời gian trong chuyển động ."
+            "1. Mốc thời gian và đồng hồ."
+            "Để xác định từng thời điểm ứng với từng vị trí của vật chuyển động ta phải chọn mốc thời gian và đo thời
+            gian trôi đi kể từ mốc thời gian bằng một chiếc đồng hồ."
+            "2. Thời điểm và thời gian."
+            "Thời điểm là trị số chỉ một lúc nào đó theo mốc thời gian và theo đơn vị thời gian đã chọn."
+            "Thời gian là khoảng thời gian trôi đi giữa hai thời điểm."
+            "Nếu lấy mốc thời gian là thời điểm vật bắt đầu chuyển động thì số chỉ của thời điểm sẽ trùng với số đo
+            khoảng thời gian đã trôi qua kể từ mốc thời gian"
+            "IV. Hệ qui chiếu."
+            "Một hệ qui chiếu gồm :"
+            "Một vật làm mốc, một hệ toạ độ gắn với vật làm mốc."
+            "Một mốc thời gian và một đồng hồ"
+            ]
+      }
+
+    ]
+}
