@@ -52,7 +52,7 @@ line-height:40px;
   display:block;
 }
 #wap-left ul li ul li:hover{
-background-color:#F5FFFA;
+   background-color:#F5FFFA;
 }
 
 #wap-left ul li a:hover{
@@ -61,9 +61,6 @@ background-color:#F5FFFA;
 }
 
 #wap-right{
-  /*width:75%;
-  height: auto;
-  float:right;*/
   background-color: azure;
 }
 #wap-right ul li{
@@ -74,8 +71,6 @@ background-color:#F5FFFA;
   float:left;
   background-color: azure;
   display:block;
-
-
 }
 #wap-right ul li img{
   float:left;
@@ -84,18 +79,18 @@ background-color:#F5FFFA;
   margin-right:20px;
   margin-left:25px;
   margin-bottom:20px;
-
 }
 
 #wap-right ul li a:hover{
   color:#000099;
   text-decoration:none;     /*hover k có gạch chân*/
 }
+
 #wap-right ul li a h3{
-color:red;
+  color:red;
 }
 #wap-right ul li:hover{
-background-color:#ffebcd;
+  background-color:#ffebcd;
 }
 
 #wap-right ul li a {
@@ -106,8 +101,6 @@ background-color:#ffebcd;
 }
 #QC{
   border:1px solid teal;
-  /*width:23%;
-  height:700px;*/
   border-bottom:1px solid teal;
   background:#EEEEEE;
   margin-top:80px;
@@ -117,17 +110,17 @@ background-color:#ffebcd;
   float:left;
 }
 #QC ul li{
-list-style-type:none;
-text-align:center;
-text-indent:15px;
+   list-style-type:none;
+   text-align:center;
+   text-indent:15px;
 }
 #QC:hover{
   background:#FFEBCD;
 }
 #QC ul ol{
-font-size:15px;
-line-height:30px;
-text-indent:15px;
+   font-size:15px;
+   line-height:30px;
+   text-indent:15px;
 }
 #QC img{
   display:block;
