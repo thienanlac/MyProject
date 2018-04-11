@@ -1,0 +1,27 @@
+{
+    "Bai":[
+      {
+          "tenbai":"Bài 2: Lý thuyết hàm số ",
+          "noidung":[
+
+                  "Lý thuyết hàm số",
+                  "1.Định nghĩa hàm số",
+                  "Cho D ∈ R, với D ≠ Φ. Một hàm số xác định trên D là một quy tắc f cho tương ứng mỗi số x ∈ D với một và duy nhất chỉ một số y ∈ R. Ta kí hiệu: f : D → R, x → y = f(x).",
+                  "Tập hợp D được gọi là tập xác định (hay miền xác định), x được gọi là biến số (hay đối số), y0=f(x0)  tại x=x0",
+                  "2. Đồ thị hàm số.",
+                  "Đồ thị của hàm số:  y = f(x)<br /> f : D → R <br/> x → y = f(x)<br/>à tập hợp các điểm có tọa độ (x;f(x)) với x ∈ D trên mặt phẳng tọa độ.",
+                  "3. Sự biến thiên của hàm số",
+                  "Hàm số y = f(x) là đồng biến trên khoảng (a;b) nếu với mọi x1,x2 ∈ (a;b) mà x1 < x2",
+                  " => f(x1) < f(x2) hay x1 # x2 ta có:",
+                  "[f(x1)−f(x2)]/(x1−x2)>0",
+                  "Hàm số y = f(x) là nghịch biến trên khoảng (a;b) nếu với mọi x1,x2 ∈ (a;b) mà x1< x2",
+                  "=> f(x1)>f(x2) hay x1#x2  ta có: [f(x1)−f(x2)]/(x1−x2)< 0",
+                  "4. Tính chẵn lẻ của hàm số Z",
+                  "Hàm số f:  D → R",
+                  "x → y = f(x) được gọi là hàm số chẵn nếu: x ∈ D => -x ∈ D và f(- x)=f(x), là hàm số lẻ nếu x ∈ D => -x ∈ D và f(-x) = -f(x).",
+                  "Đồ thị của hàm số chẵn có trục tung là trục đối xứng. Đồ thị của hàm số lẻ nhận gốc tọa độ O của hệ trục tọa độ Oxy làm tâm đối xứng."
+            ]
+      }
+
+    ]
+}
