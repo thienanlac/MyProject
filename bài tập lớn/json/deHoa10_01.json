@@ -1,0 +1,60 @@
+{
+    "De":[
+            {
+                "Tende":"Đề ôn tập toán lớp 10 bài 1",
+                "ThoiGian":
+                {
+                    "phut":"5",
+                    "giay":"0"
+                },
+                "Cau":
+                [
+                    {
+
+                      "Cauhoi":"Câu 1:Nguyên tử được cấu tạo bởi bao nhiêu loại hạt cơ bản?",
+                      "A":"A.1",
+                      "B":"B.2",
+                      "C":"C.3",
+                      "D":"D.4",
+                      "Dapan":"C"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 2: Trong nguyên tử, hạt mang điện là?",
+                      "A":"A.Electron.",
+                      "B":"B.Electron và nơtron.",
+                      "C":"C.Proton và nơton.",
+                      "D":"D.Proton và electron.",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 3:Chọn phát biểu sai:",
+                      "A":"A.Chỉ có hạt nhân nguyên tử oxi mới có 8p.",
+                      "B":"B.Chỉ có hạt nhân nguyên tử oxi mới có 8n.",
+                      "C":"C. Nguyên tử oxi có số e bằng số p.",
+                      "D":"D. Lớp e ngoài cùng nguyên tử oxi có 6e.",
+                      "Dapan":"C"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 4:Mệnh đề nào sau đây không đúng?",
+                      "A":"A.Chỉ có hạt nhân nguyên tử magie mới có tỉ lệ giữa số proton và nơtron là 1 : 1.",
+                      "B":"B.Chỉ có trong nguyên tử magie mới có 12 electron.",
+                      "C":"C.Chỉ có hạt nhân nguyên tử magie mới có 12 proton.",
+                      "D":"D.Nguyên tử magie có 3 lớp electron.",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 5:Phát biểu nào sau đây là sai:<",
+                      "A":"A.Số hiệu nguyên tử bằng điện tích hạt nhân nguyên tử.",
+                      "B":"B.Số proton trong nguyên tử bằng số nơtron.",
+                      "C":"C.Số proton trong hạt nhân bằng số electron ở lớp vỏ nguyên tử.",
+                      "D":"D.Số khối của hạt nhân nguyên tử bằng tổng số hạt proton và số hạt nơtron.",
+                      "Dapan":"C"
+                    }
+                ]
+            }
+       ]
+}
