@@ -1,0 +1,53 @@
+{
+    "Bai":[
+      {
+          "tenbai":" Bài 1: Lý thuyết về nguyên tử ",
+          "noidung":[
+
+                  "1.Thành phần cấu tạo của nguyên tử",
+                  "Kết luận: thành phần cấu tạo của nguyên tử gồm:",
+                  "Hạt nhân nằm ở tâm nguyên tử gồm các hạt proton và nơtron.",
+                  " Vỏ nguyên tử gồm các electron chuyển động xung quanh hạt nhân.",
+                  " Electron :</p>"
+                  "  me = 9,1094.10-31 kg</p>"
+                  "  qe = -1,602.10-19 C kí hiệu là – eo qui ước bằng 1-</p>"
+                  "Proton:</p> "  
+                  "Hạt proton là 1 thành phần cấu tạo của hạt nhân nguyên tử, mang điện tích dương, kí hiệu p" 
+                  " m = 1,6726.10-27 kg </p>" 
+                  "  q = +1,602.10-19 C kí hiệu eo, qui ước 1+</p>" 
+                  " Nơtron:<br/>"  
+                  "   Hạt nơtron là 1 thành phần cấu tạo của hạt nhân nguyên tử, không mang điện, kí hiệu n. Khối luợng gần bằng khối lượng proton</p>"
+
+
+                  "2.Kích thước</strong></span></h3>" 
+                  "Nguyên tử các nguyên tố có kích thước vô cùng nhỏ, nguyên tố khác nhau có kích thước khác nhau.</p>" 
+                  "Đơn vị biểu diễn A (angstron) hay nm (nanomet)</p>" 
+                  "1nm = 10-9 m; 1nm = 10A</p>" 
+                  "1A = 10-10 m = 10-8 cm</p>" 
+
+
+                  "3.Khối lượng</strong></span></h3>" 
+                  "Khối lượng nguyên tử rất nhỏ bé, để biểu thị khối lượng của nguyên tử, phân tử, p, n, e dùng đơn vị khối lượng nguyên tử, kí hiệu u (đvc) </p>" 
+                  "1u = 1/12 khối lượng 1 nguyên tử đồng vị cacbon-12</p>" 
+                  "1u = 19,9265.10-27 kg/12 = 1,6605.10-27 kg</p>" 
+
+
+                  "4.Điện tích hạt nhân</strong></span></h3>" 
+                  "Proton mang điện tích 1+, nếu hạt nhân có Z proton thì điện tích của hạt nhân bằng Z+ </p>" 
+                  "Trong nguyên tử:</p>" 
+                  "Số đơn vị điện tích hạt nhân = Số p = Số e</p>" 
+                  "Ví dụ: nguyên tử Na có Z = 11+ → ngtử Na có 11p, 11e</p>" 
+
+
+                  "5.Số khối.</strong></span></h3>" 
+                  "Là tổng số hạt proton và nơtron của hạt nhân đó</p>" 
+                  "A = Z + N</p>" 
+                  "Ví dụ 1: Hạt nhân nguyên tử O có 8p và 8n → A = 8 + 8 = 16</p>" 
+                  "Ví dụ 2: Nguyên tử Li có A = 7 và Z = 3 → Z = p = e = 3; N = 7 - 3 =4</p>" 
+                  "Nguyên tử Li có 3p, 3e và 4n</p>" 
+
+            ]
+      }
+
+    ]
+}
