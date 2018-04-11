@@ -1,0 +1,60 @@
+{
+    "De":[
+            {
+                "Tende":"Đề ôn tập toán lớp 10 bài 1",
+                "ThoiGian":
+                {
+                    "phut":"5",
+                    "giay":"0"
+                },
+                "Cau":
+                [
+                    {
+
+                      "Cauhoi":"Câu 1:Trong các phát biểu dưới đây, phát biểu nào đúng? Chuyển động cơ là:",
+                      "A":"A.Sự thay đổi hướng của vật này so với vật khác theo thời gian.",
+                      "B":"B.Sự thay đổi chiều của vật này so với vật khác theo thời gian",
+                      "C":"C.Sự thay đổi vị trí của vật này so với vật khác theo thời gian",
+                      "D":"D.Sự thay đổi phương của vật này so với vật khác theo thời gian",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 2:Hãy chọn câu đúng.",
+                      "A":"A.Hệ quy chiếu bao gồm vật làm mốc, hệ tọa độ, mốc thời gian.",
+                      "B":"B.Hệ quy chiếu bao gồm hệ tọa độ, mốc thời gian và đồng hồ.",
+                      "C":"C.Hệ quy chiếu bao gồm vật làm mốc, mốc thời gian và đồng hồ",
+                      "D":"D.Hệ quy chiếu bao gồm vật làm mốc, hệ tọa độ, mốc thời gian và đồng hồ",
+                      "Dapan":"A"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 3:Chọn đáp án sai",
+                      "A":"Trong chuyển động thẳng đều tốc độ trung bình trên mọi quãng đường là như nhau.",
+                      "B":"Quãng đường đi được của chuyển động thẳng đều được tính bằng công thức: s = v.t",
+                      "C":"Trong chuyển động thẳng đều vận tốc được xác định bằng công thức: v = v0 + at",
+                      "D":"D.Phương trình chuyển động của chuyển động thẳng đều là: x = x0 + vt",
+                      "Dapan":"B"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 4: Trong các câu dưới đây câu nào sai? Vectơ gia tốc hướng tâm trong chuyển động tròn đều có đặc điểm:",
+                      "A":"A.Đặt vào vật chuyển động.",
+                      "B":"B.Phương tiếp tuyến quỹ đạo",
+                      "C":"C.Chiều luôn hướng vào tâm của quỹ đạo",
+                      "D":"D.Độ lớn",
+                      "Dapan":"C"
+                    },
+                    {
+
+                      "Cauhoi":"Câu 5:Chuyển động nào dưới đây không phải là chuyển động thẳng biến đổi đều?",
+                      "A":"A.Một viên bi lăn trên máng nghiêng",
+                      "B":"B.Một vật rơi từ độ cao h xuống mặt đất",
+                      "C":"CMột ôtô chuyển động từ Hà Nội tới thành phố Hồ Chí Minh..",
+                      "D":"D.Một hòn đá được ném lên cao theo phương thẳng đứng",
+                      "Dapan":"C"
+                    }
+                ]
+            }
+       ]
+}
